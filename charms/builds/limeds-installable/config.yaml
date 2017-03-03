@@ -2,7 +2,7 @@
   "installables":
     "type": "string"
     "default": |
-      - org.ibcn.limeds.codecs.base64:latest
+      - org.ibcn.limeds.codecs.base64:1.0.0
     "description": |
       This takes a yaml list of "<installable-id>:<installable-version>" strings. These will be added to LimeDS. List of possible installables: http://limeds.be/installables.
   "segments":

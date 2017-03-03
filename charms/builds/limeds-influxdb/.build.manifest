@@ -36,7 +36,7 @@
     "config.yaml": [
       "limeds-influxdb", 
       "dynamic", 
-      "f805297ad2fb2687d22cdc1c21f397d5e23b4bbbdf03f317e6da716d3b10d046"
+      "de127562dd1f362b68b5f2bacd577d0a959937d815bc8b1246227a4b18c1309b"
     ], 
     "copyright": [
       "limeds-influxdb", 

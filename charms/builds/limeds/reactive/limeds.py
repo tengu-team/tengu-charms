@@ -13,6 +13,7 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+import sys
 from time import sleep
 from uuid import uuid4
 import requests
@@ -41,6 +42,7 @@ def host_connected(dh_relation):
         print("same, skipping")
         return
     print("Different")
+    remove_state('limeds.ready')
     log('config.changed.image, generating new UUID')
     uuid = str(uuid4())
     container_request = {
@@ -48,10 +50,11 @@ def host_connected(dh_relation):
     }
     unitdata.kv().set('image', container_request)
     dh_relation.send_container_requests({uuid: container_request})
-    status_set('waiting', 'Waiting for image to come online.')
+    status_set('waiting', 'Waiting for docker to spin up image.')
 
 
 @when('dockerhost.available')
+@when_not('limeds.ready')
 def image_running(dh_relation):
     conf = hookenv.config()
     containers = dh_relation.get_running_containers()
@@ -105,21 +108,27 @@ def reset_client_relationship(limeds_server_relation):
 
 
 def wait_until_limeds_initialised(base_url):
+    status_set('waiting', 'Waiting for LimeDS to complete initialisation.')
     deploy_url = "{limeds_url}/_limeds/installables"\
                  "/{installable_id}/{installable_version}"\
                  "/deploy".format(
                      limeds_url=base_url,
                      installable_id="org.ibcn.limeds.codecs.base64",
-                     installable_version="latest")
+                     installable_version="1.0.0")
     print("Waiting for LimeDS to complete initialisation.. This shouldn't take long.")
+    print(deploy_url)
     while True:
         try:
             response = requests.get(deploy_url)
             if response.status_code == 200:
                 break
+            else:
+                print(response.status_code)
+                print(response.text)
         except (requests.exceptions.ConnectionError) as err:
             print(err)
             print("retrying..")
+        sys.stdout.flush()
         sleep(1)
     print('LimeDS is initialised!')
 

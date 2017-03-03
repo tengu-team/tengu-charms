@@ -11,7 +11,7 @@
       Id of the InfluxDB connector installable. List of available installables: http://limeds.be/installables.
   "installable-version":
     "type": "string"
-    "default": "latest"
+    "default": "1.1.0"
     "description": |
       Version of the InfluxDB connector installable. List of available installables: http://limeds.be/installables.
   "segment-id":
