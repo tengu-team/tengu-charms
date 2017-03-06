@@ -72,7 +72,7 @@
 	url = git@github.com:tengu-team/interface-opened-ports.git
 [submodule "bundles/streaming"]
 	path = bundles/streaming
-	url = git@github.com:IBCNServices/bundle-streaming.git
+	url = git@github.com:tengu-team/bundle-streaming.git
 [submodule "bundles/microbatch"]
 	path = bundles/microbatch
-	url = git@github.com:IBCNServices/bundle-microbatch.git
+	url = git@github.com:tengu-team/bundle-microbatch.git
