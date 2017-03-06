@@ -1,72 +1,72 @@
 [submodule "charms/layers/openvpn"]
 	path = charms/layers/openvpn
-	url = git@github.com:IBCNServices/layer-openvpn.git
+	url = git@github.com:tengu-team/layer-openvpn.git
 [submodule "charms/layers/puppet-base"]
 	path = charms/layers/puppet-base
-	url = git@github.com:IBCNServices/layer-puppet-base.git
+	url = git@github.com:tengu-team/layer-puppet-base.git
 [submodule "charms/layers/network-agent"]
 	path = charms/layers/network-agent
-	url = https://github.com/IBCNServices/layer-network-agent
+	url = https://github.com/tengu-team/layer-network-agent
 [submodule "charms/layers/apache-toree"]
 	path = charms/layers/apache-toree
-	url = git@github.com:IBCNServices/layer-apache-toree.git
+	url = git@github.com:tengu-team/layer-apache-toree.git
 [submodule "charms/layers/jupyter-notebook-spark"]
 	path = charms/layers/jupyter-notebook-spark
-	url = git@github.com:IBCNServices/layer-jupyter-notebook-spark.git
+	url = git@github.com:tengu-team/layer-jupyter-notebook-spark.git
 [submodule "charms/layers/jupyter-notebook"]
 	path = charms/layers/jupyter-notebook
-	url = git@github.com:IBCNServices/layer-jupyter-notebook.git
+	url = git@github.com:tengu-team/layer-jupyter-notebook.git
 [submodule "charms/layers/limeds"]
 	path = charms/layers/limeds
-	url = git@github.com:IBCNServices/layer-limeds.git
+	url = git@github.com:tengu-team/layer-limeds.git
 [submodule "charms/layers/docker"]
 	path = charms/layers/docker
-	url = git@github.com:IBCNServices/layer-docker.git
+	url = git@github.com:tengu-team/layer-docker.git
 [submodule "charms/interfaces/docker-image-host"]
 	path = charms/interfaces/docker-image-host
-	url = https://github.com/IBCNServices/interface-docker-image-host.git
+	url = https://github.com/tengu-team/interface-docker-image-host.git
 [submodule "charms/interfaces/http"]
 	path = charms/interfaces/http
-	url = git@github.com:IBCNServices/interface-http.git
+	url = git@github.com:tengu-team/interface-http.git
 [submodule "charms/layers/cwr"]
 	path = charms/layers/cwr
 	url = git@github.com:juju-solutions/layer-cwr.git
 [submodule "bundles/limeds-core"]
 	path = bundles/limeds-core
-	url = git@github.com:IBCNServices/bundle-limeds-core.git
+	url = git@github.com:tengu-team/bundle-limeds-core.git
 [submodule "charms/layers/eclipse-che"]
 	path = charms/layers/eclipse-che
-	url = git@github.com:IBCNServices/layer-eclipse-che.git
+	url = git@github.com:tengu-team/layer-eclipse-che.git
 [submodule "charms/layers/flask-helloworld"]
 	path = charms/layers/flask-helloworld
-	url = git@github.com:IBCNServices/layer-flask-helloworld.git
+	url = git@github.com:tengu-team/layer-flask-helloworld.git
 [submodule "charms/layers/apache-nifi"]
 	path = charms/layers/apache-nifi
-	url = git@github.com:IBCNServices/layer-apache-nifi.git
+	url = git@github.com:tengu-team/layer-apache-nifi.git
 [submodule "charms/layers/neo4j"]
 	path = charms/layers/neo4j
-	url = git@github.com:IBCNServices/layer-neo4j.git
+	url = git@github.com:tengu-team/layer-neo4j.git
 [submodule "charms/layers/limeds-mongodb"]
 	path = charms/layers/limeds-mongodb
-	url = git@github.com:IBCNServices/layer-limeds-mongodb.git
+	url = git@github.com:tengu-team/layer-limeds-mongodb.git
 [submodule "charms/interfaces/limeds"]
 	path = charms/interfaces/limeds
-	url = git@github.com:IBCNServices/interface-limeds.git
+	url = git@github.com:tengu-team/interface-limeds.git
 [submodule "charms/layers/limeds-installable"]
 	path = charms/layers/limeds-installable
-	url = https://github.com/IBCNServices/layer-limeds-installable
+	url = https://github.com/tengu-team/layer-limeds-installable
 [submodule "charms/layers/limeds-sidecar"]
 	path = charms/layers/limeds-sidecar
-	url = git@github.com:IBCNServices/layer-limeds-sidecar.git
+	url = git@github.com:tengu-team/layer-limeds-sidecar.git
 [submodule "charms/layers/limeds-influxdb"]
 	path = charms/layers/limeds-influxdb
-	url = git@github.com:IBCNServices/layer-limeds-influxdb.git
+	url = git@github.com:tengu-team/layer-limeds-influxdb.git
 [submodule "bundles/limeds-bigdata"]
 	path = bundles/limeds-bigdata
-	url = git@github.com:IBCNServices/bundle-limeds-bigdata.git
+	url = git@github.com:tengu-team/bundle-limeds-bigdata.git
 [submodule "charms/layers/layer-superset"]
 	path = charms/layers/layer-superset
-	url = https://github.com/IBCNServices/layer-superset.git
+	url = https://github.com/tengu-team/layer-superset.git
 [submodule "charms/layers/mattermost"]
 	path = charms/layers/mattermost
-	url = git@github.com:IBCNServices/layer-mattermost.git
+	url = git@github.com:tengu-team/layer-mattermost.git
