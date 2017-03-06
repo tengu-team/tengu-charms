@@ -67,3 +67,6 @@
 [submodule "charms/layers/mattermost"]
 	path = charms/layers/mattermost
 	url = git@github.com:tengu-team/layer-mattermost.git
+[submodule "charms/interfaces/opened-ports"]
+	path = charms/interfaces/opened-ports
+	url = git@github.com:tengu-team/interface-opened-ports.git
