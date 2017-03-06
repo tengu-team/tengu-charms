@@ -1,9 +1,0 @@
-{
-  "nodes":[
-    {"name":"Storm", "port":"8080", "services":[{"name":"nimbus"}, {"name":"worker"}, {"name":"apache-zookeeper"}]},
-    {"name":"Cassandra", "services":[{"name":"cassandra"}]}
-  ],
-  "relationships":[
-    {"source":"Storm","target":"Cassandra"}
-  ]
-}
