@@ -70,3 +70,6 @@
 [submodule "charms/interfaces/opened-ports"]
 	path = charms/interfaces/opened-ports
 	url = git@github.com:tengu-team/interface-opened-ports.git
+[submodule "bundles/streaming"]
+	path = bundles/streaming
+	url = git@github.com:IBCNServices/bundle-streaming.git
