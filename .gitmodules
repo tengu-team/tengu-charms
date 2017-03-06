@@ -73,3 +73,6 @@
 [submodule "bundles/streaming"]
 	path = bundles/streaming
 	url = git@github.com:IBCNServices/bundle-streaming.git
+[submodule "bundles/microbatch"]
+	path = bundles/microbatch
+	url = git@github.com:IBCNServices/bundle-microbatch.git
