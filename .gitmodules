@@ -91,3 +91,6 @@
 [submodule "charms/layers/controller-AWS"]
 	path = charms/layers/controller-AWS
 	url = git@github.com:tengu-team/layer-controller-AWS.git
+[submodule "charms/layers/juju2-client"]
+	path = charms/layers/juju2-client
+	url = git@github.com:tengu-team/layer-juju2-client.git
