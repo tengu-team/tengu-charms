@@ -76,9 +76,6 @@
 [submodule "bundles/microbatch"]
 	path = bundles/microbatch
 	url = git@github.com:tengu-team/bundle-microbatch.git
-[submodule "charms/layers/sojobo-api"]
-	path = charms/layers/sojobo-api
-	url = https://github.com/Qrama/Sojobo-api.git
 [submodule "charms/interfaces/sojobo"]
 	path = charms/interfaces/sojobo
 	url = git@github.com:tengu-team/interface-sojobo.git
