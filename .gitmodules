@@ -91,3 +91,6 @@
 [submodule "charms/layers/juju2-client"]
 	path = charms/layers/juju2-client
 	url = git@github.com:tengu-team/layer-juju2-client.git
+[submodule "charms/layers/sojobo"]
+	path = charms/layers/sojobo
+	url = git@github.com:tengu-team/layer-sojobo.git
