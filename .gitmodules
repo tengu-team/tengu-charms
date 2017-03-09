@@ -63,7 +63,7 @@
 	url = git@github.com:tengu-team/bundle-limeds-bigdata.git
 [submodule "charms/layers/superset"]
 	path = charms/layers/superset
-	url = https://github.com/tengu-team/layer-superset.git
+	url = git@github.com:tengu-team/superset.git
 [submodule "charms/layers/mattermost"]
 	path = charms/layers/mattermost
 	url = git@github.com:tengu-team/layer-mattermost.git
