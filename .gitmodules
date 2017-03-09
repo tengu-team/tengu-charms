@@ -61,9 +61,6 @@
 [submodule "bundles/limeds-bigdata"]
 	path = bundles/limeds-bigdata
 	url = git@github.com:tengu-team/bundle-limeds-bigdata.git
-[submodule "charms/layers/superset"]
-	path = charms/layers/superset
-	url = git@github.com:tengu-team/superset.git
 [submodule "charms/layers/mattermost"]
 	path = charms/layers/mattermost
 	url = git@github.com:tengu-team/layer-mattermost.git
@@ -97,3 +94,15 @@
 [submodule "charms/layers/java"]
 	path = charms/layers/java
 	url = git@github.com:tengu-team/layer-java.git
+[submodule "charms/tengu-ui"]
+	path = charms/tengu-ui
+	url = git@github.com:tengu-team/layer-tengu-ui.git
+[submodule "charms/kafka-subscriber"]
+	path = charms/kafka-subscriber
+	url = git@github.com:tengu-team/layer-kafka-subscriber.git
+[submodule "charms/kafka-helper"]
+	path = charms/kafka-helper
+	url = git@github.com:tengu-team/layer-kafka-helper.git
+[submodule "charms/kafka-subclient"]
+	path = charms/kafka-subclient
+	url = git@github.com:tengu-team/layer-kafka-subclient.git
