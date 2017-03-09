@@ -1,5 +1,0 @@
-options:
-  test-option:
-    type: string
-    default: ""
-    description: "test option"
