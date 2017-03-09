@@ -1,2 +1,0 @@
-includes: ['layer:apache-php']
-repo: git@github.com:IBCNServices/tengu-charms.git
