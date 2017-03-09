@@ -106,3 +106,6 @@
 [submodule "charms/kafka-subclient"]
 	path = charms/kafka-subclient
 	url = git@github.com:tengu-team/layer-kafka-subclient.git
+[submodule "charms/layers/influxdb"]
+	path = charms/layers/influxdb
+	url = git@github.com:tengu-team/layer-influxdb.git
