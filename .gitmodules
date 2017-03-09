@@ -94,3 +94,6 @@
 [submodule "charms/layers/sojobo"]
 	path = charms/layers/sojobo
 	url = git@github.com:tengu-team/layer-sojobo.git
+[submodule "charms/layers/java"]
+	path = charms/layers/java
+	url = git@github.com:tengu-team/layer-java.git
