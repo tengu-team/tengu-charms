@@ -103,3 +103,6 @@
 [submodule "charms/layers/lets-encrypt"]
 	path = charms/layers/lets-encrypt
 	url = git@github.com:tengu-team/layer-lets-encrypt.git
+[submodule "charms/interfaces/sojobo"]
+	path = charms/interfaces/sojobo
+	url = git@github.com:tengu-team/interface-sojobo.git
