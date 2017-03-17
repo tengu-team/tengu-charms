@@ -25,9 +25,6 @@
 [submodule "charms/interfaces/docker-image-host"]
 	path = charms/interfaces/docker-image-host
 	url = https://github.com/tengu-team/interface-docker-image-host.git
-[submodule "charms/layers/cwr"]
-	path = charms/layers/cwr
-	url = git@github.com:juju-solutions/layer-cwr.git
 [submodule "bundles/limeds-core"]
 	path = bundles/limeds-core
 	url = git@github.com:tengu-team/bundle-limeds-core.git
