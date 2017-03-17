@@ -67,9 +67,6 @@
 [submodule "bundles/microbatch"]
 	path = bundles/microbatch
 	url = git@github.com:tengu-team/bundle-microbatch.git
-[submodule "charms/interfaces/sojobo"]
-	path = charms/interfaces/sojobo
-	url = git@github.com:tengu-team/interface-sojobo.git
 [submodule "charms/layers/controller-MAAS"]
 	path = charms/layers/controller-MAAS
 	url = git@github.com:tengu-team/layer-controller-MAAS.git
