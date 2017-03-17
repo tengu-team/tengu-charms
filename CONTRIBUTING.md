@@ -127,7 +127,7 @@ mkdir ~/bin
 
 ```bash
 #!/bin/bash
-if [[ $(head -n 1 "${@: -1}") == *python3* ]]
+if [[ $(head -n 1 "${@: -1}") == *python3* || $(head -n 1 "${@: -1}" | head -n 1) != *python* ]]
 then
   pylint3 --extension-pkg-whitelist=lxml,netifaces "$@"
 else

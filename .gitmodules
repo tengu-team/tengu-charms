@@ -109,3 +109,6 @@
 [submodule "charms/layers/influxdb"]
 	path = charms/layers/influxdb
 	url = git@github.com:tengu-team/layer-influxdb.git
+[submodule "charms/layers/lets-encrypt"]
+	path = charms/layers/lets-encrypt
+	url = git@github.com:tengu-team/layer-lets-encrypt.git
