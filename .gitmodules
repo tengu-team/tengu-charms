@@ -7,9 +7,6 @@
 [submodule "charms/layers/network-agent"]
 	path = charms/layers/network-agent
 	url = https://github.com/tengu-team/layer-network-agent
-[submodule "charms/layers/apache-toree"]
-	path = charms/layers/apache-toree
-	url = git@github.com:tengu-team/layer-apache-toree.git
 [submodule "charms/layers/jupyter-notebook-spark"]
 	path = charms/layers/jupyter-notebook-spark
 	url = git@github.com:tengu-team/layer-jupyter-notebook-spark.git
