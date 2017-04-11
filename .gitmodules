@@ -103,3 +103,9 @@
 [submodule "charms/interfaces/sojobo"]
 	path = charms/interfaces/sojobo
 	url = git@github.com:tengu-team/interface-sojobo.git
+[submodule "charms/layers/ssl-termination-proxy"]
+	path = charms/layers/ssl-termination-proxy
+	url = git@github.com:tengu-team/layer-ssl-termination-proxy.git
+[submodule "charms/layers/flask"]
+	path = charms/layers/flask
+	url = git@github.com:tengu-team/layer-flask.git
