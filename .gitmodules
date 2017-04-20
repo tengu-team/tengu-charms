@@ -109,3 +109,6 @@
 [submodule "charms/layers/flask"]
 	path = charms/layers/flask
 	url = git@github.com:tengu-team/layer-flask.git
+[submodule "charms/layers/lets-encrypt"]
+	path = charms/layers/lets-encrypt
+	url = git@github.com:tengu-team/layer-lets-encrypt.git
