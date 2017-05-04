@@ -64,7 +64,7 @@ sudo apt install python-pip python3-pip python-setuptools python3-setuptools\
                  charm-tools juju-deployer
 
 # Dependencies of Charms so linter can check them
-sudo pip3 install charms.reactive netifaces amulet click Flask charmhelpers
+sudo pip3 install charms.reactive netifaces amulet click Flask charmhelpers crontab
 
 # Properly display jinja2 templates
 apm install atom-jinja2
@@ -204,7 +204,7 @@ max-line-length=99
 # --enable=similarities". If you want to run only the classes checker, but have
 # no Warning level messages displayed, use"--disable=all --enable=classes
 # --disable=W"
-disable=c0103,c0111,import-star-module-level,old-octal-literal,oct-method,print-statement,unpacking-in-except,parameter-unpacking,backtick,old-raise-syntax,old-ne-operator,long-suffix,dict-view-method,dict-iter-method,metaclass-assignment,next-method-called,raising-string,indexing-exception,raw_input-builtin,long-builtin,file-builtin,execfile-builtin,coerce-builtin,cmp-builtin,buffer-builtin,basestring-builtin,apply-builtin,filter-builtin-not-iterating,using-cmp-argument,useless-suppression,range-builtin-not-iterating,suppressed-message,no-absolute-import,old-division,cmp-method,reload-builtin,zip-builtin-not-iterating,intern-builtin,unichr-builtin,reduce-builtin,standarderror-builtin,unicode-builtin,xrange-builtin,coerce-method,delslice-method,getslice-method,setslice-method,input-builtin,round-builtin,hex-method,nonzero-method,map-builtin-not-iterating
+disable=c0103,c0111,w1202,r0902,r0903,r0904,r0914,c0325,r0201,w0603,import-star-module-level,old-octal-literal,oct-method,print-statement,unpacking-in-except,parameter-unpacking,backtick,old-raise-syntax,old-ne-operator,long-suffix,dict-view-method,dict-iter-method,metaclass-assignment,next-method-called,raising-string,indexing-exception,raw_input-builtin,long-builtin,file-builtin,execfile-builtin,coerce-builtin,cmp-builtin,buffer-builtin,basestring-builtin,apply-builtin,filter-builtin-not-iterating,using-cmp-argument,useless-suppression,range-builtin-not-iterating,suppressed-message,no-absolute-import,old-division,cmp-method,reload-builtin,zip-builtin-not-iterating,intern-builtin,unichr-builtin,reduce-builtin,standarderror-builtin,unicode-builtin,xrange-builtin,coerce-method,delslice-method,getslice-method,setslice-method,input-builtin,round-builtin,hex-method,nonzero-method,map-builtin-not-iterating
 ```
 
 # Handy commands and tips
@@ -271,4 +271,11 @@ reconnect to screen
 
 ```
     screen -r
+```
+
+Get DNS name of MAAS server
+
+```
+IPMI_IP=10.2.17.83
+dig -x $IPMI_IP  @ns.wall1.ilabt.iminds.be
 ```
