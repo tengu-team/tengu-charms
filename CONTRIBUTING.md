@@ -263,8 +263,14 @@ ObjectId("5714784653628548824c18de").getTimestamp()
 Analyse disk space
 
 ```
-tree -h --du /var | grep "G]"
+# Show all folders from `/var` that contain more than a gig of data
 sudo du -h /var | grep '[0-9\.]\+G'
+
+# Show the ZFS pools (the disks of the container are part of the zfs pools)
+zpool list
+
+# Change the disk quota of a container
+lxc config device set juju-f88e04-1-lxd-9 root size 80GB
 ```
 
 reconnect to screen
