@@ -37,3 +37,7 @@ charms/deps
 charms/
 
 .tox/
+
+
+# Visual studio code
+.vscode
