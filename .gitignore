@@ -33,4 +33,7 @@ test
 # dependency directory of composer
 charms/deps
 
+# lose these too
+charms/
+
 .tox/

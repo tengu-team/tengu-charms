@@ -1,1 +1,0 @@
-This file is here to make sure charm build throws an error when you build charms to the xenial directory. Run `charm build ./<dirname>` from `layers` to build to `/builds`.

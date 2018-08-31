@@ -1,7 +1,0 @@
-options:
-  class:
-    default:
-    type: string
-    description: "Spout class url"
-    
-
